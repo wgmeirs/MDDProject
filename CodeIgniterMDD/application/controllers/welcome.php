@@ -19,6 +19,9 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		/* $this->load->model('MailList_model');
+		$data['subscribers'] = $this->MailList_model->get_maillist();
+		echo var_dump($data['subscribers']); */
 		$this->load->view('welcome_message');
 	}
 }
