@@ -15,13 +15,7 @@
 </head>
 
 <body>
-<div class="container-fluid">
-		<div class="row-fluid">
-        	<header class="span12">
-            <img src="img/CVPDlogo.png" alt="CVPD Logo" />
-            </header>
-        
-        </div>
+
 <nav class="navbar navbar-inverse">
 	<div class="navbar-inner">
     	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -41,6 +35,18 @@
     </div>
     </div>
 </nav>
+<div class="container-fluid">
+
+		<div class="row-fluid">
+        	<header class="span12 hero-unit">
+           <a href="index.html"><img src="img/CVPDlogo.png" alt="CVPD Logo" / ></a>
+           <h2 class="pull-right">Find the best Pet deals here!</h2>
+           <p><a href="index.html" class="btn btn-info btn-large pull-right">See the Feed!</a>
+
+            </header>
+        
+        </div>
+
     <div class="row-fluid">
     	<div class="span5">
 
