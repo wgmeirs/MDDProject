@@ -18,9 +18,11 @@ p {
   font-size: 16px;
 }
 
-h1,
-h2 {
+h1 {
 	color:#99cc66	
+}
+h2  {
+	color:#006
 }
 
 h3,

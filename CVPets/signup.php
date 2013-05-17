@@ -34,35 +34,39 @@
     
     <div class="nav-collapse pull-right">
     <ul class="nav">
-      <li class="active"><a href="#">Home</a> </li>
-      <li><a href="signup.php"">Signup</a></li>
+      <li><a href="index.html">Home</a> </li>
+      <li class="active"><a href="signup.php">Signup</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
     </div>
     </div>
 </nav>
     <div class="row-fluid">
-    	<div class="span6">
+    	<div class="span5">
 
-        <h2>Get the latest feed on pet deals!</h2>
+        <h2>Sign up to get notified of great offers!</h2>
         <p>
-        Want to contribute to the great deals? It’s easy! from your Twitter account simply tweet the deal and don’t forget the magic hashtag #cvpets, that’s it!
-Don’t want to have to keep checking the CVPD feed? Sign-up to get notifiied by email. It’s easy, free and we won’t share your information with anyone! 
+        Don’t want to have to keep checking the CVPD feed? Sign-up to get notifiied by email. It’s easy, free and we won’t share your information with anyone!
         </p>
         <p>
-        <a href="signup.php">Go here to sign up! »</a>
         </p>
         
     		</div> <!--closes lh column-->
     	
-        <div class="span5 offset1">
-        <a class="twitter-timeline"  href="https://twitter.com/search?q=%23cvpets"  data-widget-id="332933758372151297">Tweets about "#cvpets"</a>
-
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    	
-    
-    
-    </div> <!--closes rh column-->
+        <div class="span5 offset2">
+    <h1>Sign Up</h1>
+    <form>
+    <label>First Name</label>
+    <input type="text" name="firstname" class="span3">
+    <label>Last Name</label>
+    <input type="text" name="lastname" class="span3">
+    <label>Email Address</label>
+    <input type="email" name="email" class="span3">
+    <label><input type="checkbox" name="terms"> I agree with the <a href="#">Terms and Conditions</a>.</label>
+    <input type="submit" value="Sign up" class="btn btn-primary pull-right">
+    <div class="clearfix"></div>
+    </form>
+</div> <!--closes signup form-->
 
  </div> <!--closes row-->
 </div> <!--closes container-->
