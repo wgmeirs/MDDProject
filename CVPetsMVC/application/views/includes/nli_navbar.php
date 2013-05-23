@@ -13,9 +13,9 @@
     
     <div class="nav-collapse pull-right">
     <ul class="nav">
-      <li><a href="index.html">Home</a> </li>
-      <li class="active"><a href="signup.php">Signup</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="http://localhost:8888/MDDProject/CVPets/" >Home</a> </li>
+      <li class="active"><a href="http://localhost:8888/MDDProject/CVPetsMVC/index.php/signup">Signup</a></li>
+      <li><a href="http://localhost:8888/MDDProject/CVPets/contact.html">Contact</a></li>
     </ul>
     </div>
     </div>
