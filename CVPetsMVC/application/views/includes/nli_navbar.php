@@ -1,6 +1,7 @@
+<div class="container-fluid">
 <div class="navbar navbar-static-top">
   <div class="navbar-inner">
-    <div class="container">
+    <!--<div class="container">-->
 <nav class="navbar navbar-inverse">
 	<div class="navbar-inner">
     	<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
@@ -19,6 +20,7 @@
     </ul>
     </div>
     </div>
-</nav>    </div>
+</nav>   <!-- </div>-->
   </div>
+</div>
 </div>
