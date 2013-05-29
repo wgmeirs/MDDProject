@@ -13,8 +13,8 @@
     
     <div class="nav-collapse pull-right">
     <ul class="nav">
-      <li><a href="http://localhost:8888/MDDProject/CVPets/" >Home</a> </li>
-      <li class="active"><a href="http://localhost:8888/MDDProject/CVPetsMVC/index.php/signup">Signup</a></li>
+      <li><a href="http://localhost:8888/MDDProject/CVPetsMVC/index.php/login" >Home</a> </li>
+      <li><a href="http://localhost:8888/MDDProject/CVPetsMVC/index.php/signup">Signup</a></li>
       <li><a href="http://localhost:8888/MDDProject/CVPets/contact.html">Contact</a></li>
     </ul>
     </div>

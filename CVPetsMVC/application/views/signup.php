@@ -13,7 +13,7 @@
         
         </div>
 
-  <div class="row">
+  <div class="row-fluid">
     <div class="span4">
       <form id="formSignup" class="well" accept-charset="utf-8">
         <input type="text" class="input-block-level" name="email" value="Your Email" placeholder="Your Email" required maxlength="40" autofocus />
@@ -24,12 +24,23 @@
         <i class="icon-bell icon-white"></i> Sign Up</button>
       </form>
     </div>
+    <div class="row-fluid">
+    	<div class="span5 offset3">
+
+        <h2>Sign up to get notified of great offers!</h2>
+        <p>
+        Don’t want to have to keep checking the CVPD feed? Sign-up to get notifiied by email. It’s easy, free and we won’t share your information with anyone!
+        </p>
+        <p>
+        </p>
+        
+    		</div> <!--closes lh column-->
   </div>
   <div id="success" class="row" style="display: none">
     <div class="span4">
       <div id="successMessage" class="alert alert-success">
       <p><strong>Registration</strong> successful!</p>
-      <a href="<?=site_url('login'); ?>" class="btn btn-success"><i class="icon-arrow-right icon-white"></i> log on now</a>
+      <!--/*<a href="<?=site_url('login'); ?>" class="btn btn-success"><i class="icon-arrow-right icon-white"></i> log on now</a>*/-->
       </div>
     </div>
   </div>
