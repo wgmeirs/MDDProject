@@ -4,6 +4,13 @@
 <div class="content" style="display:none">
   <div class="page-header">
     <h2>Welcome to Champlain Valley Pet Deals!</h2>
+    <div class="row-fluid">
+        	<header class="span12 hero-unit">
+           <a href="index.html"><img src="../css/img/CVPDlogo.png" / ></a>
+            </header>
+        
+        </div>
+
   </div>
   <div class="row">
    <div class="span4">
