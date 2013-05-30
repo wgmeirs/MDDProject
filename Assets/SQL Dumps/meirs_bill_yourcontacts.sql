@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.5.25)
 # Database: yourcontacts
-# Generation Time: 2013-05-23 23:44:37 +0000
+# Generation Time: 2013-05-30 16:30:50 +0000
 # ************************************************************
 
 
@@ -20,58 +20,38 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 
-# Dump of table contacts
+# Dump of table users
 # ------------------------------------------------------------
 
-DROP TABLE IF EXISTS `contacts`;
+DROP TABLE IF EXISTS `users`;
 
-CREATE TABLE `contacts` (
-  `cid` int(11) NOT NULL AUTO_INCREMENT,
-  `uid` int(11) NOT NULL,
-  `name` varchar(50) NOT NULL,
+CREATE TABLE `users` (
+  `uid` int(11) NOT NULL AUTO_INCREMENT,
   `email` varchar(50) NOT NULL,
-  `phone` varchar(20) NOT NULL,
-  PRIMARY KEY (`cid`)
+  `password` varchar(32) NOT NULL,
+  `contacts` int(11) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`uid`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-LOCK TABLES `contacts` WRITE;
-/*!40000 ALTER TABLE `contacts` DISABLE KEYS */;
+LOCK TABLES `users` WRITE;
+/*!40000 ALTER TABLE `users` DISABLE KEYS */;
 
-INSERT INTO `contacts` (`cid`, `uid`, `name`, `email`, `phone`)
+INSERT INTO `users` (`uid`, `email`, `password`, `contacts`)
 VALUES
-	(38,7,'contact1','contact1@mail.com','111111111111111'),
-	(39,7,'contact2','contact2@mail.com','222222222222222'),
-	(40,7,'contact3','contact3@mail.com','333333333333333'),
-	(41,7,'contact4','contact4@mail.com','444444444444444'),
-	(42,8,'contact1','contact1@mail.com','111111111111111'),
-	(43,8,'contact2','contact2@mail.com','222222222222222'),
-	(44,8,'contact3','contact3@mail.com','333333333333333'),
-	(45,9,'contact1','contact1@mail.com','111111111111111'),
-	(46,9,'contact2','contact2@mail.com','222222222222222'),
-	(47,10,'contact1','contact1@mail.com','111111111111111'),
-	(48,10,'contact2','contact2@mail.com','222222222222222'),
-	(49,10,'contact3','contact3@mail.com','333333333333333'),
-	(50,10,'contact4','contact4@mail.com','444444444444444'),
-	(51,8,'contact4','contact4@mail.com','444444444444444'),
-	(52,8,'contact5','contact5@mail.com','555555555555555'),
-	(53,8,'contact6','contact6@mail.com','666666666666666'),
-	(54,8,'contact7','contact7@mail.com','777777777777777'),
-	(64,10,'contact5','contact5@mail.com','555555555555555'),
-	(65,10,'contact6','contact6@mail.com','666666666666666'),
-	(66,10,'contact7','contact7@mail.com','777777777777777'),
-	(67,10,'contact8','contact8@mail.com','888888888888888'),
-	(68,10,'contact9','contact9@mail.com','999999999999999'),
-	(69,10,'contact10','contact10@mail.com','101010101010101'),
-	(70,10,'contact11','contact11@mail.com','111111111111111'),
-	(71,10,'contact12','contact12@mail.com','121212121212121'),
-	(72,13,'contact1','contact1@mail.com','111111111111111'),
-	(73,13,'contact2','contact2@mail.com','222222222222222'),
-	(74,12,'conatct1','contact1@mail.com','111111111111111'),
-	(75,11,'contact1','contact1@mail.com','111111111111111'),
-	(76,11,'contact2','contact2@mail.com','222222222222222'),
-	(77,11,'contact3','contact3@mail.com','333333333333333');
+	(7,'user2@mail.com','ee11cbb19052e40b07aac0ca060c23ee',4),
+	(8,'user3@mail.com','ee11cbb19052e40b07aac0ca060c23ee',7),
+	(9,'user4@mail.com','ee11cbb19052e40b07aac0ca060c23ee',2),
+	(10,'user1@mail.com','ee11cbb19052e40b07aac0ca060c23ee',12),
+	(11,'user5@mail.com','ee11cbb19052e40b07aac0ca060c23ee',3),
+	(12,'user6@mail.com','ee11cbb19052e40b07aac0ca060c23ee',1),
+	(13,'user7@mail.com','ee11cbb19052e40b07aac0ca060c23ee',2),
+	(14,'greyhoundjoey@yahoo.com','c726698620762d88f738be4a294fae79',0),
+	(15,'bill.meirs@gmail.com','6b3f74d6ac3df04708cf3bad1e1de60c',0),
+	(16,'wgmeirs@fullsail.edu','d10ce830ebd527096ac646521c5ed0ff',0),
+	(17,'joeyhound@yahoo.com','81dc9bdb52d04dc20036dbd8313ed055',0),
+	(18,'Moose@moosehead.com','2fe7cec3131fa9662906ecfb2eac8a49',0);
 
-/*!40000 ALTER TABLE `contacts` ENABLE KEYS */;
+/*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 
 
