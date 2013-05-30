@@ -6,4 +6,5 @@ Users can sign up for notifications (future feature)
 
 SQL Dump, Style tiles and PowerPoint of APP Description/Pitch is in assets folder
 
-home page: /CVPets/index.html
+Installation:
+
